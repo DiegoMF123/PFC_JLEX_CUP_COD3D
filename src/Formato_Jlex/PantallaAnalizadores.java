@@ -98,7 +98,7 @@ public class PantallaAnalizadores extends javax.swing.JFrame {
     private void jButton_GenerarC3DActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_GenerarC3DActionPerformed
         String texto = jTextField_Expresion.getText();
         if(texto.isEmpty()){
-            System.err.println("No es posible evaluar una cadena en blanco.");
+            System.err.println("No podemos evaluar un cadena en blanco.");
             return;
         }
         try {
@@ -108,7 +108,7 @@ public class PantallaAnalizadores extends javax.swing.JFrame {
             parser parser = new parser(scan);
             parser.parse();
             jTextArea_Codigo3Dgenerado.setText(ControlCodigo3Direcciones.getC3D());
-            System.out.println("Finaliza la generación de C3D...");
+            System.out.println("Finaliza la generación del Código_3_Direciones...");
         } catch (Exception ex) {
             ex.printStackTrace();
         }

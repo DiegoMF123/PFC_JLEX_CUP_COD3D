@@ -1,4 +1,4 @@
-#Inicialización de las variables
+#Creación e Inicialización de las variables
 set a 1
 set b 2
 set c [expr $a + $b]
