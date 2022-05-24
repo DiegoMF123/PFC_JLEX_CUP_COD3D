@@ -8,3 +8,11 @@ En el siguiente proyecto se encontrará el proyecto realizado para el analizador
 ----Solo se debe de colocar operaciones aritméticas para poder generar el código en 3 direcciones
 ----El botón "Generar Sintáctico" está dirigido a un archivo .mlp el cual se encontrara en el código del botón.
 ----FAVOR DE SOLO CAMBIAR EL PATH DEL ARCHIVO .MLP PARA QUE NO EXISTA CONFLICTO EN LAS PRUEBAS.
+
+Para poder ejecutar la carpeta D:\Escritorio\PFC_JLEX_CUP_COD3D\src\Generador_lexico
+colocar la carpeta en el escritorio.
+Abrir la línea de comandos CMD de windows e ingresar a la carpeta donde estarán los archivos .mlp.
+Colocar el siguiente comando: java Analex @<analizar.mlp
+Mostrara todos los tokens que tiene el archivo "analizar.mlp" y así puede realizarlo con los difenntes archivos .mlp que se encuentran allí
+
+
