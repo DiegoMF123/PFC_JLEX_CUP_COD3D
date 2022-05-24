@@ -7,7 +7,7 @@ import Codigo_3_Direcciones.parser;
 import Codigo_3_Direcciones.Yylex;
 /**
  *
- * @author esvux
+ * @author Diego_MF
  */
 public class PantallaAnalizadores extends javax.swing.JFrame {
 
@@ -117,7 +117,7 @@ public class PantallaAnalizadores extends javax.swing.JFrame {
 
     private void jButton_GenerarC3D1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_GenerarC3D1ActionPerformed
         try {
-            Formato_Jlex.parser p = new Formato_Jlex.parser(new Formato_Jlex.Yylex(new java.io.FileInputStream("C:\\Users\\JairoJS\\Desktop\\ProyectoJlexCup\\prueba.mlp")));
+            Formato_Jlex.parser p = new Formato_Jlex.parser(new Formato_Jlex.Yylex(new java.io.FileInputStream("D:\\Escritorio\\PFC_JLEX_CUP_COD3D\\ejempAnalizador.mlp")));
             p.parse();
         } catch (Exception e) {
             System.out.println(e.getMessage());

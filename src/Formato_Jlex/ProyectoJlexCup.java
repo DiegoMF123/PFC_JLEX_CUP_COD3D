@@ -17,7 +17,7 @@ public class ProyectoJlexCup {
     public static void main(String[] args) {
         // TODO code application logic here
         try {
-            parser p = new parser(new Yylex(new java.io.FileInputStream("D:\\Escritorio\\PFC_JLEX_CUP_COD3D\\ejemploAnalizador.mlp")));
+            parser p = new parser(new Yylex(new java.io.FileInputStream("D:\\Escritorio\\PFC_JLEX_CUP_COD3D\\ejempAnalizador.mlp")));
             p.parse();
         } catch (Exception e) {
             System.out.println(e.getMessage());
